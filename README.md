@@ -1,6 +1,6 @@
 # employee-management-system
 
-This is the official github repository of the our system.
+This is the official github repository of our system.
 
 Groupmates:
 Calma, Jerome
