@@ -20,14 +20,14 @@ const EmployeeDashboard = ({ data }) => {
             subtitle: "Awaiting approval",
         },
 
-        {
-            icon: DollarSignIcon,
-            value: data.latestPayslip
-                ? `$${data.latestPayslip.netSalary?.toLocaleString()}`
-                : "N/A",
-            title: "Latest Payslip",
-            subtitle: "Most recent payout",
-        },
+        // {
+        //     icon: DollarSignIcon,
+        //     value: data.latestPayslip
+        //         ? `$${data.latestPayslip.netSalary?.toLocaleString()}`
+        //         : "N/A",
+        //     title: "Latest Payslip",
+        //     subtitle: "Most recent payout",
+        // },
     ];
 
     return (
